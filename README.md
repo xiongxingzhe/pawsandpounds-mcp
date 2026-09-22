@@ -28,7 +28,11 @@ Agents often need accurate, citeable helpers for common pet-owner questions (“
   "mcpServers": {
     "pawsandpounds": {
       "command": "npx",
-      "args": ["-y", "github:xiongxingzhe/pawsandpounds-mcp"]
+      "args": [
+        "-y",
+        "--package=github:xiongxingzhe/pawsandpounds-mcp",
+        "pawsandpounds-mcp"
+      ]
     }
   }
 }
