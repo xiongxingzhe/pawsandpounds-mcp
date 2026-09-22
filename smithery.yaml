@@ -1,0 +1,8 @@
+#start_server
+command:
+  - node
+  - dist/index.js
+configSchema:
+  type: object
+  properties: {}
+exampleConfig: {}

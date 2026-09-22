@@ -1,0 +1,53 @@
+{
+  "name": "pawsandpounds-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Paws & Pounds pet tools: cup↔grams, RER/MER calories, ideal weight by breed. Educational estimates only.",
+  "type": "module",
+  "bin": {
+    "pawsandpounds-mcp": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "pet",
+    "dog",
+    "cat",
+    "calorie",
+    "bcs",
+    "rer",
+    "pawsandpounds"
+  ],
+  "author": "Paws & Pounds",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiongxingzhe/pawsandpounds-mcp.git"
+  },
+  "homepage": "https://pawsandpounds.com/mcp",
+  "bugs": {
+    "url": "https://github.com/xiongxingzhe/pawsandpounds-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
